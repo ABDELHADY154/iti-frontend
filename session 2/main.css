@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #ad5a56;
+  color: white;
+  text-align: center;
+}
+
+.navbar ul {
+  display: inline-flex;
+  margin-bottom: 1rem;
+}
+.navbar ul li {
+  list-style: none;
+  padding: 7px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar ul li a:hover {
+  color: blue;
+}
+.break {
+  width: 100%;
+  background-color: #3a393e;
+  height: 2rem;
+}
+.container {
+  text-align: center;
+  padding: 1rem;
+}
+.container h1 {
+  color: #6cac96;
+}
+
+.card h3 {
+  background-color: #3a393e;
+  margin-top: 1rem;
+  width: 100%;
+  color: white;
+  text-align: left;
+  border-bottom: 1px white solid;
+}
+.card img {
+  width: 100%;
+}
+footer {
+  background-color: #3a393e;
+  color: white;
+  text-align: center;
+}
+footer p {
+  padding: 25px;
+}
+
+.formContainer {
+  border: 2px solid #d8f0e4;
+  background-color: #f5faf9;
+  padding: 1rem;
+}
+.formContainer h3 {
+  color: #55917a;
+  padding-bottom: 0.5rem;
+}
+
+.formDesc {
+  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
+}
+.formDesc p {
+  background-color: #e0f0e8;
+  border: 2px dashed #538069;
+  padding: 5px;
+}
+.star {
+  color: red;
+}
+
+.tableRow {
+  width: 100%;
+}
+.col1 {
+  text-align: right;
+  background-color: #e0f0e8;
+  width: 40%;
+  color: #55917a;
+}
+.col2 {
+  width: 40%;
+}
+.tableRow td {
+  padding: 5px;
+}
+.col2 input {
+  width: 80%;
+  border: 2px solid #d8f0e4;
+  height: 25px;
+}
+.col2 textarea {
+  width: 90%;
+  border: 2px solid #d8f0e4;
+}
+.col2 select {
+  width: 90%;
+  border: 2px solid #d8f0e4;
+}
+.col2 input[type="email"] {
+  width: 100%;
+  border: 2px solid #d8f0e4;
+  height: 25px;
+}
+.col2 input[type="tel"] {
+  width: 25%;
+  border: 2px solid #d8f0e4;
+  height: 25px;
+}
+
+.col2 p {
+  color: #55917a;
+  font-size: small;
+}
+
+.terms {
+  text-align: center;
+  padding: 1rem;
+}
+
+.formButtons {
+  text-align: center;
+}
+.formButtons button[type="submit"] {
+  width: 6rem;
+  height: 2rem;
+  border: 1px solid lightblue;
+  background-color: white;
+  border-radius: 10%;
+}
+.formButtons button[type="submit"]:hover {
+  width: 6rem;
+  height: 2rem;
+  border: 1px solid lightblue;
+  background-color: lightgray;
+  border-radius: 10%;
+}
+.formButtons button[type="reset"] {
+  width: 6rem;
+  height: 2rem;
+  border: 1px solid lightblue;
+  background-color: white;
+  border-radius: 8%;
+}
+.formButtons button[type="reset"]:hover {
+  width: 6rem;
+  height: 2rem;
+  border: 1px solid lightblue;
+  background-color: lightgray;
+  border-radius: 10%;
+}

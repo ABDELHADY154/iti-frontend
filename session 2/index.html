@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Recipe World</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1>Recipe World</h1>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html">Recipe</a></li>
+        <li><a href="./index.html">Suggest</a></li>
+      </ul>
+    </nav>
+    <div class="break"></div>
+    <div class="container">
+      <h1>Home</h1>
+      <div class="card">
+        <h3>&nbsp;&nbsp;&nbsp;FEATURED: MAGIC CAKE</h3>
+        <img src="./img/cake.png" alt="" />
+      </div>
+    </div>
+    <div class="formContainer">
+      <h3>Register - Create Account</h3>
+      <div class="formDesc">
+        <p>
+          Field marked with<span class="star"> * </span>are compulsory fields
+        </p>
+      </div>
+      <form action="legal.html" method="get">
+        <table>
+          <tbody>
+            <tr class="tableRow">
+              <td class="col1">
+                <label for="name"><span class="star"> *</span>Your Name</label>
+              </td>
+              <td class="col2">
+                <input type="text" name="name" id="name" required />
+              </td>
+            </tr>
+            <tr class="tableRow">
+              <td class="col1">
+                <label for="email"><span class="star"> *</span>E-Mail ID</label>
+              </td>
+              <td class="col2">
+                <input type="email" name="email" id="email" required />
+              </td>
+            </tr>
+            <tr class="tableRow">
+              <td class="col1">
+                <label for="email2">Alternate E-Mail ID </label>
+              </td>
+              <td class="col2">
+                <input type="email" name="email2" id="email2" />
+              </td>
+            </tr>
+            <tr class="tableRow">
+              <td class="col1">
+                <label for="email2">Your Phone</label>
+              </td>
+              <td class="col2">
+                <p>Country Code - City Code - Phone Number</p>
+                <input type="tel" id="countryCode" name="countryCode" /> -
+                <input type="tel" id="cityCode" name="cityCode" /> -
+                <input type="tel" id="phoneNumber" name="phoneNumber" />
+              </td>
+            </tr>
+            <tr class="tableRow">
+              <td class="col1">
+                <label for="phone">Mobile Phone</label>
+              </td>
+              <td class="col2">
+                <input type="number" name="phone" id="phone" />
+              </td>
+            </tr>
+            <tr class="tableRow">
+              <td class="col1">
+                <label for="phone">
+                  <span class="star"> *</span>Your Postal Address
+                </label>
+              </td>
+              <td class="col2">
+                <textarea
+                  id="postalAddress"
+                  name="postalAddress"
+                  rows="4"
+                  cols="50"
+                  required
+                >
+                </textarea>
+              </td>
+            </tr>
+            <tr class="tableRow">
+              <td class="col1">
+                <label for="country">
+                  <span class="star"> *</span>Country
+                </label>
+              </td>
+              <td class="col2">
+                <select id="country" name="country" class="country" required>
+                  <option value="0">
+                    ------------------ Select One ---------------
+                  </option>
+                  <option value="Egypt">Egypt</option>
+                  <option value="England">England</option>
+                  <option value="Germany">Germany</option>
+                </select>
+              </td>
+            </tr>
+            <tr class="tableRow">
+              <td class="col1">
+                <label for="password">
+                  <span class="star"> *</span>Password
+                </label>
+              </td>
+              <td class="col2">
+                <input type="password" name="password" id="password" required />
+              </td>
+            </tr>
+            <tr class="tableRow">
+              <td class="col1">
+                <label for="passwordConfirm">
+                  <span class="star"> *</span>Re - Enter Password
+                </label>
+              </td>
+              <td class="col2">
+                <input
+                  type="password"
+                  name="passwordConfirm"
+                  id="passwordConfirm"
+                  required
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="terms">
+          <input type="checkbox" name="terms" required /> I accept the
+          <a href="/">Terms and Conditions</a>
+        </p>
+        <div class="formButtons">
+          <button type="submit">Continue >></button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <p>&copy; 2014-RECIPE WORLD</p>
+    </footer>
+  </body>
+</html>

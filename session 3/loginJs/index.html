@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <form onsubmit="formValidator();">
+      <label for="uname"><b>Username</b></label>
+      <input
+        type="text"
+        placeholder="Enter Username"
+        name="uname"
+        id="userName"
+        required
+      /><br />
+      <br />
+
+      <label for="psw"><b>Password</b></label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="psw"
+        id="pass"
+        required
+      />
+      <br />
+      <button type="submit">Login</button>
+    </form>
+    <hr />
+    <h2>calculator</h2>
+    <button onclick="calc();">Click to calculate</button>
+    <div class="">
+      The result is:
+      <span id="calcResult"></span>
+    </div>
+    <button onclick="calc2();">Click to calculate</button>
+
+    <div class="">
+      The final result is:
+      <span id="calcResult2"></span>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

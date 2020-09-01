@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q3</title>
+  </head>
+  <body>
+    <h2>area calculator</h2>
+    <script>
+      let shape = window.prompt(
+        "write down the shape (circle,triangle,square)"
+      );
+      switch (shape) {
+        case "circle":
+          var pi = 3.14;
+          var r = parseFloat(window.prompt("enter the radius value"));
+          var radiusSquare = r * r;
+          var area = pi * radiusSquare;
+          document.write(
+            "the Circle area: " +
+              pi +
+              " * " +
+              radiusSquare +
+              " = " +
+              area +
+              "<br>"
+          );
+
+          break;
+        case "triangle":
+          var b = parseFloat(window.prompt("enter base value:"));
+          var h = parseFloat(window.prompt("enter height value"));
+          var area = b * h * 0.5;
+          document.write(
+            "the triangle area: " +
+              1 / 2 +
+              " * " +
+              b +
+              " * " +
+              h +
+              " = " +
+              area +
+              "<br>"
+          );
+
+          break;
+        case "square":
+          var a = parseFloat(window.prompt("enter side value:"));
+          var aSquare = a * a;
+          var area = aSquare;
+          document.write(
+            "the square area: " + a + "<sup>2</sup> = " + area + "<br>"
+          );
+
+          break;
+
+        default:
+          alert("please enter a valid shape name");
+          break;
+      }
+    </script>
+  </body>
+</html>

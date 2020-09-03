@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="login-page">
+      <div class="form">
+        <form
+          class="login-form"
+          method="GET"
+          onsubmit="return validateForm();"
+          name="myForm"
+        >
+          <input type="text" placeholder="E-mail" name="email" />
+          <input type="password" placeholder="password" name="password" />
+          <div id="emailError" class="message" style="color: red"></div>
+          <div id="passwordError" class="message" style="color: red"></div>
+
+          <button type="submit">login</button>
+          <p class="message">
+            Not registered? <a href="#">Create an account</a>
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
